@@ -91,8 +91,8 @@ vim -c "PluginInstall"
   | Repository                                                                        | Syntax             |
   | --------------------------------------------------------------------------------- | ------------------ |
   | [`HerringtonDarkholme/yats.vim`](https://github.com/HerringtonDarkholme/yats.vim) | Typescript         |
-  | [`yuezk/vim-js                `](https://github.com/yuezk/vim-js                ) | Javascript         |
-  | [`MaxMEllon/vim-jsx-pretty    `](https://github.com/MaxMEllon/vim-jsx-pretty    ) | JSX                |
-  | [`lepture/vim-jinja           `](https://github.com/lepture/vim-jinja           ) | Jinja and Nunjucks |
-  | [`jparise/vim-graphql         `](https://github.com/jparise/vim-graphql         ) | GraphQL            |
+  | [`yuezk/vim-js`](https://github.com/yuezk/vim-js)                                 | Javascript         |
+  | [`MaxMEllon/vim-jsx-pretty`](https://github.com/MaxMEllon/vim-jsx-pretty)         | JSX                |
+  | [`lepture/vim-jinja`](https://github.com/lepture/vim-jinja)                       | Jinja and Nunjucks |
+  | [`jparise/vim-graphql`](https://github.com/jparise/vim-graphql)                   | GraphQL            |
 
