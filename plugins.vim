@@ -1,8 +1,12 @@
 Plugin 'VundleVim/Vundle.vim'
+
+" Visual changes and interface
+Plugin 'tribela/vim-transparent'
+
 Plugin 'vim-airline/vim-airline'
 let g:airline#extensions#tabline#enabled = 1
 
-Plugin 'majutsushi/tagbar'
+Plugin 'preservim/tagbar'
 " namp <F2> :TagbarToggle<CR>
 
 " Syntaxes
