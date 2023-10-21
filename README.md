@@ -1,22 +1,18 @@
 # Gill's Vim Config
 My vim configuration: various plugins, shortcuts, editor settings, and visual
-changes. [Vundle](https://github.com/VundleVim/Vundle.vim) is a dependency for
-plugin management, which itself installs the other plugin dependencies.
+changes. Vundle and vim plugins are installed on startup if not found.
 
 There is also an optional dependency, `ctags`, used in the
 [Tagbar](https://github.com/preservim/tagbar) plugin.
 
 ## Installation
-To install the configuration, first install Vundle, clone this repo, then move
-and rename its root directory to ~/vim/. Then, to install plugins, run
-`:PluginInstall` from within vim.
+To install the configuration, clone this repo, then move and rename its root
+directory to ~/vim/. Upon startup, Vundle will be installed if not already
+present, and then plugins will be installed using `:PluginInstall`, via Vundle.
 
-Or, for convenience:
+For convenience:
 ```bash
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-git clone https://github.com/GilchristTech/gill-vim-config ~/vim
-echo 'so ~/vim/vimrc' >> ~/.vimrc
-vim -c "PluginInstall"
+git clone https://github.com/GilchristTech/gill-vim-config ~/vim && echo 'so ~/vim/vimrc' >> ~/.vimrc
 ```
 
 ## Plugins
