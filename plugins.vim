@@ -9,12 +9,19 @@ let g:airline#extensions#tabline#enabled = 1
 Plugin 'preservim/tagbar'
 " namp <F2> :TagbarToggle<CR>
 
+" Use colins when invoking vim to jump to file numbers, eg:   vim file.txt:122
+" Also allows using this within vim command mode,       eg: :edit file.txt:387
+Plugin 'kopischke/vim-fetch'
+
 " Syntaxes
 Plugin 'HerringtonDarkholme/yats.vim'
 Plugin 'yuezk/vim-js'
 Plugin 'MaxMEllon/vim-jsx-pretty'
 Plugin 'lepture/vim-jinja'
 Plugin 'jparise/vim-graphql'
+Plugin 'wuelnerdotexe/vim-astro'
+
+Plugin 'Bakudankun/PICO-8.vim'
 
 " Plugin 'ludovicchabant/vim-gutentags'
 
