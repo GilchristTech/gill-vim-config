@@ -26,6 +26,7 @@ Plugin 'jparise/vim-graphql'
 Plugin 'wuelnerdotexe/vim-astro'
 
 Plugin 'Bakudankun/PICO-8.vim'
+Plugin 'lluchs/vim-wren'
 
 " Plugin 'ludovicchabant/vim-gutentags'
 
