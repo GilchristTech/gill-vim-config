@@ -1,5 +1,9 @@
 Plugin 'VundleVim/Vundle.vim'
 
+" Git Gutter: shows git additions and modifications
+" enable: GitGutterEnble
+Plugin 'airblade/vim-gitgutter.git'
+
 " Visual changes and interface
 Plugin 'tribela/vim-transparent'
 
@@ -9,7 +13,7 @@ let g:airline#extensions#tabline#enabled = 1
 Plugin 'preservim/tagbar'
 " namp <F2> :TagbarToggle<CR>
 
-" Use colins when invoking vim to jump to file numbers, eg:   vim file.txt:122
+" Use colons when invoking vim to jump to file numbers, eg:   vim file.txt:122
 " Also allows using this within vim command mode,       eg: :edit file.txt:387
 Plugin 'kopischke/vim-fetch'
 
