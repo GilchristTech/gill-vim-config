@@ -43,6 +43,7 @@ set breakindent
 set expandtab
 " set smartindent
 filetype indent on
+filetype plugin indent on
 
 set hlsearch
 set incsearch

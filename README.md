@@ -83,6 +83,8 @@ git clone https://github.com/GilchristTech/gill-vim-config ~/vim && echo 'so ~/v
   * Align selection by the first colon: `ga:`
   * Align selection by every comma: `ga**,`
 
+- ### [vim-go](https://github.com/fatih/vim-go)
+
 - ### Syntax Plugins
   | Repository                                                                        | Syntax             |
   | --------------------------------------------------------------------------------- | ------------------ |

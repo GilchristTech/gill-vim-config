@@ -61,3 +61,6 @@ let g:user_emmet_settings = {
 \    },
 \  },
 \}
+
+
+Plugin 'fatih/vim-go'
