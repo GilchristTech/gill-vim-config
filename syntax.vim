@@ -14,4 +14,4 @@ autocmd FileType       html set shiftwidth=2 tabstop=2
 autocmd FileType      jinja set shiftwidth=2 tabstop=2
 " autocmd FileType javascript set shiftwidth=2 tabstop=2
 
-let g:markdown_fenced_languages = ['bash', 'javascript', 'html', 'css', 'scss']
+let g:markdown_fenced_languages = ['bash', 'javascript', 'html', 'css', 'scss', 'tinysplit', 'go', 'c', 'xml', 'perl', 'python']

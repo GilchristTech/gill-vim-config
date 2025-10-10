@@ -27,6 +27,7 @@ Plugin 'wuelnerdotexe/vim-astro'
 
 Plugin 'Bakudankun/PICO-8.vim'
 Plugin 'lluchs/vim-wren'
+Plugin 'GilchristTech/tinysplit', { 'rtp': 'vim/' }
 
 " Plugin 'ludovicchabant/vim-gutentags'
 
