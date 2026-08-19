@@ -13,6 +13,18 @@ let g:airline#extensions#tabline#enabled = 1
 Plugin 'preservim/tagbar'
 " namp <F2> :TagbarToggle<CR>
 
+Plugin 'wellle/context.vim'
+let g:context_add_mappings = 0
+if !exists('##WinScrolled')
+    nnoremap <silent> <expr> <C-Y> context#util#map('<C-Y>')
+    nnoremap <silent> <expr> <C-E> context#util#map('<C-E>')
+    nnoremap <silent> <expr> zz    context#util#map('zz')
+    nnoremap <silent> <expr> zb    context#util#map('zb')
+endif
+
+nnoremap <silent> <expr> zt context#util#map_zt()
+"nnoremap <silent> <expr> H  context#util#map_H()
+
 " Use colons when invoking vim to jump to file numbers, eg:   vim file.txt:122
 " Also allows using this within vim command mode,       eg: :edit file.txt:387
 Plugin 'kopischke/vim-fetch'
@@ -62,6 +74,3 @@ let g:user_emmet_settings = {
 \    },
 \  },
 \}
-
-
-Plugin 'fatih/vim-go'
