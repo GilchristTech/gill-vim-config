@@ -78,3 +78,9 @@ let g:user_emmet_settings = {
 
 Plugin 'fatih/vim-go'
 let g:go_fmt_autosave = 0
+
+" SQL interface for Vim
+" use :DBUI
+Plugin 'tpope/vim-dadbod'
+Plugin 'kristijanhusak/vim-dadbod-ui'
+Plugin 'kristijanhusak/vim-dadbod-completion'

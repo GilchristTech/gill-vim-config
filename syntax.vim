@@ -14,4 +14,13 @@ autocmd FileType       html set shiftwidth=2 tabstop=2
 autocmd FileType      jinja set shiftwidth=2 tabstop=2
 " autocmd FileType javascript set shiftwidth=2 tabstop=2
 
-let g:markdown_fenced_languages = ['bash', 'javascript', 'html', 'css', 'scss', 'tinysplit', 'go', 'c', 'xml', 'perl', 'python']
+let g:markdown_fenced_languages = ['bash', 'javascript', 'html', 'css', 'scss', 'tinysplit', 'go', 'c', 'xml', 'perl', 'python', 'sql']
+
+"https://github.com/vim/vim/issues/18716
+"augroup NoDbextWarning
+"  autocmd!
+"  autocmd FileType sql setlocal omnifunc=
+"augroup END
+
+" https://github.com/kristijanhusak/vim-dadbod-completion
+autocmd FileType sql setlocal omnifunc=vim_dadbod_completion#omni
